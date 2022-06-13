@@ -64,8 +64,35 @@ function C() {
 }
 
 
-function plus() {
-    value = value + "0";
-    console.log(value);
+function backspace() {
+    value = value.slice(0, -1);
     screen.value = value;
+}
+
+function plus() {
+    operator = "+";
+    numb1 = screen.value;
+    value = "";
+    screen.value = "";
+}
+function minus() {
+    operator = "-";
+    numb1 = value;
+}
+function mul() {
+    operator = "X";
+    numb1 = value;
+}
+function division() {
+    operator = "/";
+    numb1 = value;
+}
+
+function calc() {
+    numb1 = parseFloat(numb1);
+    numb2 = parseFloat(value);
+    if (operator === "+") {
+        result = numb1 + numb2;
+    }
+    screen.value = result
 }
