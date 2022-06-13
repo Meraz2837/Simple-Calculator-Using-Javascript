@@ -32,35 +32,40 @@
   </nav>
   <!-- Navbar -->
 
-  <section style="width: 400px;" class="mx-auto">
+  <section style="width: 390px;" class="mx-auto">
     <div class="body">
-      <input id="disp" style="text-align: right; width: 91%; font-size: 20px; font-weight: 700;"
-        class="m-3 p-2 border border-primary">
+      <input disabled id="disp" style="text-align: right; width: 91%; font-size: 20px; font-weight: 700;"
+        class="m-3 p-2 border border-primary" value="0">
     </div>
     <div class="buttons m-3 p-2">
+      <div class="p-1">
+        <button type="button" onclick="C()" style="width: 49%;" class="btn btn-primary">C</button>
+        <button type="button" onclick="one()" style="width: 49%;" class="btn btn-primary">
+          <- </button>
+      </div>
       <div class="p-1">
         <button type="button" onclick="seven()" class="btn btn-primary">7</button>
         <button type="button" onclick="eight()" class="btn btn-primary">8</button>
         <button type="button" onclick="nine()" class="btn btn-primary">9</button>
-        <button type="button" onclick="one()" style="width: 110px;" class="btn btn-primary">+</button>
-        <button type="button" onclick="one()" style="width: 110px;" class="btn btn-primary">-</button>
+        <button type="button" onclick="plus()" style="width: 105px;" class="btn btn-primary">+</button>
+        <button type="button" onclick="one()" style="width: 105px;" class="btn btn-primary">-</button>
       </div>
       <div class="p-1">
         <button type="button" onclick="four()" class="btn btn-primary">4</button>
         <button type="button" onclick="five()" class="btn btn-primary">5</button>
         <button type="button" onclick="six()" class="btn btn-primary">6</button>
-        <button type="button" onclick="one()" style="width: 110px;" class="btn btn-primary">X</button>
-        <button type="button" onclick="one()" style="width: 110px;" class="btn btn-primary">/</button>
+        <button type="button" onclick="one()" style="width: 105px;" class="btn btn-primary">X</button>
+        <button type="button" onclick="one()" style="width: 105px;" class="btn btn-primary">/</button>
       </div>
       <div class="p-1">
         <button type="button" onclick="one()" class="btn btn-primary">1</button>
         <button type="button" onclick="two()" class="btn btn-primary">2</button>
         <button type="button" onclick="three()" class="btn btn-primary">3</button>
-        <button type="button" onclick="one()" style="width: 225px;" class="btn btn-primary">=</button>
+        <button type="button" onclick="one()" style="width: 215px;" class="btn btn-primary">=</button>
       </div>
 
       <div class="p-1">
-        <button style="width: 340px;" class="btn btn-primary">0</button>
+        <button style="width: 332px;" class="btn btn-primary">0</button>
       </div>
     </div>
 

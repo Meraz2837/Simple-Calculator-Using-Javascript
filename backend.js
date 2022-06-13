@@ -1,3 +1,10 @@
+var numb1, numb2, result;
+var operator = "";
+operator = "bal"
+
+
+
+
 var screen = document.getElementById("disp");
 var value = screen.value;
 function one() {
@@ -45,6 +52,19 @@ function eight() {
     console.log(value);
     screen.value = value;
 } function zero() {
+    value = value + "0";
+    console.log(value);
+    screen.value = value;
+}
+
+function C() {
+    value = "";
+    console.log(value);
+    screen.value = value;
+}
+
+
+function plus() {
     value = value + "0";
     console.log(value);
     screen.value = value;
