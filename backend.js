@@ -72,6 +72,14 @@ function nine() {
     screen.style.color = "white"
 }
 
+function decimalpoint() {
+    value = value + ".";
+    console.log(value);
+    screen.value = value;
+    body.style.background = "black"
+    screen.style.color = "white"
+}
+
 function zero() {
     value = value + "0";
     console.log(value);
