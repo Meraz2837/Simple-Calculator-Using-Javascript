@@ -1,6 +1,5 @@
 var numb1, numb2, result = 0;
 var operator = "";
-operator = "bal"
 
 var body = document.getElementById("body")
 
