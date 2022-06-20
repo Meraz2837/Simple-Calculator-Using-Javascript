@@ -1,4 +1,4 @@
-var numb1, numb2, result;
+var numb1, numb2, result = 0;
 var operator = "";
 operator = "bal"
 
@@ -100,7 +100,7 @@ function plus() {
     numb1 = screen.value;
     value = "";
     screen.value = "";
-    body.style.background = "darkmagenta"
+    body.style.background = "lightblue"
     screen.style.color = "black"
 }
 function minus() {
@@ -108,7 +108,7 @@ function minus() {
     numb1 = screen.value;
     value = "";
     screen.value = "";
-    body.style.background = "darkorange"
+    body.style.background = "lightgreen"
     screen.style.color = "white"
 }
 function mul() {
@@ -116,7 +116,7 @@ function mul() {
     numb1 = screen.value;
     value = "";
     screen.value = "";
-    body.style.background = "darkred"
+    body.style.background = "lime"
     screen.style.color = "white"
 }
 function division() {
@@ -124,7 +124,7 @@ function division() {
     numb1 = screen.value;
     value = "";
     screen.value = "";
-    body.style.background = "darkslategray"
+    body.style.background = "olive"
     screen.style.color = "white"
 }
 
